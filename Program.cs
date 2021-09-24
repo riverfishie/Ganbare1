@@ -207,39 +207,394 @@ namespace Ganbare1
 
             //Console.WriteLine("discounted price is : £" + final );
 
-            int x = 0;
+            //int x = 0;
+            //int y;
+            //while (x != 3)
+            //{
 
-            while (x != 4)
-            {
+            //    Random rnd = new Random();
+            //    y = rnd.Next(1, 11);
 
-                Random rnd = new Random();
-                int y = rnd.Next(1, 10);
+            //    Console.WriteLine(y);                                         //Book reference 12
 
-                Console.WriteLine(y);
+            //    if (y == 10)
+            //    {
+            //        Console.WriteLine("WIN!!!");                          
+            //        Console.ReadLine();
+            //        x++;
+            //    }
+            //    else
+            //    {
+            //        Console.ReadLine();
+            //        x++;
+            //    }
+            //}
 
-                if (y == 10)
-                {
-                    Console.WriteLine("WIN!!!");
-                }
-                if (x == 0)
-                {
-                    Console.WriteLine("TRY AGAIN:(( Three more attempts");
-                    x++;
-                }
-                if (x == 1)
-                {
-                    Console.WriteLine("TRY AGAIN:(( Three more attempts");
-                    x++;
-                }
-                if (x == 2)
-                {
-                    Console.WriteLine("TRY AGAIN:(( Three more attempts");
-                    x++;
-                }
+            //Random rnd = new Random();
+            //string[] BebeorPoopy = { "Bebe", "Poppy" };
 
-            }
+            //int Index = rnd.Next(BebeorPoopy.Length);
+
+            //Console.WriteLine("Bebe or Poppy?    {0}", BebeorPoopy[Index]);
+
+
+            // Bebe vs Poppy
+
+            //Random rnd = new Random();
+
+            //int poopyHealth, bebeHealth;
+
+            //bebeHealth = 10;
+            //poopyHealth = 10;
+            //int damage;
+
+
+            //while (poopyHealth != 0 && bebeHealth != 0)
+            //{
+            //    damage = rnd.Next(0, 7);
+            //    Console.WriteLine("Bebe took " + damage + " damage !");
+            //    Console.ReadLine();
+            //    bebeHealth -= damage;
+
+            //    damage = rnd.Next(1, 7);
+            //    Console.WriteLine("Poppy took " + damage + " damage !");
+            //    Console.ReadLine();
+            //    poopyHealth -= damage;
+
+            //    if (poopyHealth <= 0)
+            //    {
+            //        poopyHealth = 0;
+            //    }
+            //    if (bebeHealth <= 0)                                            // using random class
+            //    {
+            //        bebeHealth = 0;
+            //    }
+
+            //    Console.WriteLine("Bebe health : " + bebeHealth + "/10");
+            //    Console.WriteLine("Poppy health : " + poopyHealth + "/10");
+
+            //    Console.ReadLine();
+
+            //}
+            //if (bebeHealth != 0 && poopyHealth == 0)
+            //{
+            //    Console.WriteLine("Beeby win");
+            //}
+            //if (poopyHealth != 0 && bebeHealth == 0)
+            //{
+            //    Console.WriteLine("Poopy win");
+            //}
+            //if (poopyHealth == 0 && bebeHealth == 0)
+            //{
+            //    Console.WriteLine("Both fainted!");
+            //}
+
+            //Straight line distance
+
+            //distance = 
+
+            //Console.WriteLine("Distance between two points");
+
+
+            //// Enter x1coord
+            //Console.WriteLine("Enter x-axis of co-ordinate 1");
+            //double x1 = double.Parse(Console.ReadLine());
+
+            ////Enter y1coord
+            //Console.WriteLine("Enter y-axis of co-ordinate 1");                           //13
+            //double y1 = double.Parse(Console.ReadLine());
+
+            ////Enter x2 coord
+            //Console.WriteLine("Enter x-axis of co-ordinate 2");
+            //double x2 = double.Parse(Console.ReadLine());
+
+            ////Enter y2 coord
+            //Console.WriteLine("Enter y-axis of co-ordinate 2");
+            //int y2 = int.Parse(Console.ReadLine());
+
+
+            ////square root of x1 - x2 "p1"
+            //double p1 = (x1 - x2)*(x1 - x2);
+
+            ////square root of y1-y2 "p2"
+            //double p2 = (y1 - y2)*(y1 - y2);
+
+            ////p1+p2 "sum"
+            //double sum = p1 + p2;
+
+            //// sqrt of sum = distance
+            //sum = Math.Sqrt(sum);
+
+            //Console.WriteLine("Distance between : ");
+            //Console.WriteLine(sum);
+
+            //Console.WriteLine("Hypopotomos Getter");
+            //Console.ReadLine();
+
+            //double a, b, c;
+
+            ////Length 1
+            //a = double.Parse(Console.ReadLine());
+
+
+            ////Length 2
+            //b = double.Parse(Console.ReadLine());
+
+            ////A *A                                                    //14
+
+            ////B*B
+
+            ////SQRT OF A+B
+
+            //c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b,2));
+
+            //Console.WriteLine("Rhino = " + c);
+            //double angle, length, opposite;
+
+            ////Enter angle
+            //Console.WriteLine("Enter angle of a right angled triangle : ");
+            //angle = double.Parse(Console.ReadLine());
+
+            ////Length of adjacent 
+            //Console.WriteLine("Enter length of adjacent side of triangle : ");            //15
+            //length = Double.Parse(Console.ReadLine());
+
+            ////Turn angle into radians
+            ////tan of the angle
+            //angle = Math.Tan(angle * Math.PI / 180);
+
+            ////Divide (times) by adjacent
+
+            //opposite = angle * length;
+
+            //Console.WriteLine("Length of opposite side : " + opposite);
+
+            //double y, x, w, z;
+
+            //x = 1;
+            //w = 20;
+            //y = 5;
+            //z = 1;
+
+            //y = Math.Pow(Math.Sin(Math.PI / 2 * x) + Math.Cos(Math.PI * 3 / 2 * w), 3) / Math.Sqrt(Math.Tan(2 * Math.PI / 3 * w) - Math.Sin(Math.PI / 2 * x)) + 6;
+
+            //Console.WriteLine(y);
+
+            //Console.WriteLine(y / z);
+
+            //Enter int 1 
+
+            //Enter int 2                               //16
+
+            //int q = 17;
+
+            //int r = 5;
+
+
+            ////Quotient 
+            //Console.WriteLine(q / r);
+            ////Remainder 
+            //Console.WriteLine(q % r);
+
+
+
+            //int d = 4135;
+
+            //int firstd = d / 1000; //1
+
+            //Console.WriteLine(firstd); //print 4
+
+            //int remainderd = d % 1000;
+
+            ////Console.WriteLine(remainderd); //print 135
+
+            //int next = remainderd / 100; //2
+
+
+            //Console.WriteLine(next); //print 1                        //17
+
+            //int nextagain = remainderd % 100; 
+
+            ////Console.WriteLine(nextagain); //print 35
+
+            //int third = nextagain / 10; //3
+
+            //Console.WriteLine(third);
+
+            //int nexttt = nextagain % 10; //4
+
+            //Console.WriteLine(nexttt);
+
+            //int last = nexttt;
+
+
+            //Enter elapsed time in seconds
+            //Console.WriteLine("Enter a bunch of seconds lol");
+            //int s = int.Parse(Console.ReadLine());
+
+            //int sec, min, hrs, day, r;
+
+            //sec = 60;
+            //min = 60;
+            //hrs = 3600;
+            //day = 86400;
+
+            //// Days = divide by 86400
+            //Console.WriteLine(s / day + " Days");                      //18
+            //r = s % day;
+
+            //// Hours = divide by 3600
+            //Console.WriteLine(r / hrs + " Hours");
+            //r = r % hrs;
+
+            //// Minutes = divide by 60
+            //Console.WriteLine(r / min + " Minutes"); // 11 mins
+            //r = r % min;
+
+            ////669
+            //Console.WriteLine(r % sec + " Seconds");
+
+
+            // Enter 3 digit number
+
+            //int n, l, o, p;
+
+            //n = int.Parse(Console.ReadLine());
+
+            ////Reverse it 
+
+            //l = n % 100; // 95
+            //o = l % 10; //5 //FIRST                                  //19
+            //p = l / 10; //9 //SECOND
+            //n = n / 100; //400 //LAST
+
+            ////Console.WriteLine(l + "L");
+            ////Console.WriteLine(o + "o");
+            ////Console.WriteLine(p + "P");
+            ////Console.WriteLine(n + "n");
+
+            //Console.WriteLine(o + "" + p + "" + n);
+
+            //
+
+            //prompt to enter number
+            //int number = int.Parse(Console.ReadLine());
+
+            ////Get last digit 
+            //number = number % 10;                                           //20
+            ////Times last digit by 8
+
+            //number = number * 8;
+            ////Displays sum
+
+            //Console.WriteLine(number);
+
+
+            //input number
+            //int number = int.Parse(Console.ReadLine());                       //21
+
+            //number = 1 - number % 2;
+
+            //Console.WriteLine(number);
+
+
+
+            // enter amount of money to get from bank
+
+            //need least amount of notes that can give
+
+            //int amount, r, usd1, usd10, usd20, usd5;
+
+            //Console.Write("Enter amount of money to withdraw: ");
+
+            //amount = Int32.Parse(Console.ReadLine());
+
+            //usd20 = (int)(amount / 20);
+
+            //r = amount % 20;
+
+            //usd10 = (int)(r / 10);                                            //22
+
+            //r = r % 10;
+
+            //usd5 = (int)(r / 5);
+
+            //usd1 = r % 5;
+
+            //Console.Write(usd20 + " note(s) of $20 " + usd10 + " note(s) of $10 ");
+
+            //Console.WriteLine(usd5 + " note(s) of $5 and " + usd1 + " note(s) of $1");
+
+
+            //Enter name
+
+            //string name = "Salmon";
+
+            ////Name backwards 
+
+            //char s = name[0];
+            //char a = name[1];
+            //char l = name[2];                                     //23
+            //char m = name[3];
+            //char o = name[4];
+            //char n = name[5];
+
+            //string stringname = "" + n + o + m + l + a + s;
+
+            //Console.WriteLine(stringname);
+
+            // one string = first + last name input 
+            //string name = "Salmon Almon";
+
+            //string firstname = name.Substring(0, 6);
+            //string lastname = name.Substring(7);
+
+            //Console.WriteLine(lastname + " " + firstname);
+
+            //separate first and last name 
+
+            //swaps them
+
+            //string firstname = Console.ReadLine();
+
+            //string nam = firstname.Substring(0, 3);               //24
+
+            //Random random = new Random();
+
+            //int num1 = random.Next(1, 10);
+            //int num2 = random.Next(1, 10);
+            //int num3 = random.Next(1, 10);
+
+            //Console.WriteLine(nam + num1 + num2 + num3);
+
+            //
+
+
+            // Sleeps until Christmas
+
+            //Input which day of year it is
+
+            //Input how long u sleep hours
+
+            //Turn to ints
+
+            // do 360 - days
+
+            // days - 1 = sleeps
+
+            // sleeps into hours
+
+            //sleeps / how long sleep a day
+
+            //Display how many 
+
+
+
+
 
             Console.ReadLine();
+
+            
 
 
 
