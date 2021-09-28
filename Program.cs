@@ -588,9 +588,154 @@ namespace Ganbare1
 
             //Display how many 
 
+            //bool one, two;
+            //int a, b, c;
+            //a = 5;
+            //b = 2;
+            //c = 7;
+
+            //one = (3 * a + b / 47 - c * b / a > 23) && (b != 5);              //25
+
+
+            //two = (a * b - c / 2 + 21 * c < 3) || (a >= 5);
+
+            //Console.WriteLine(two);
+            //Console.WriteLine(one);
+
+
+            //between ages of 9 and 12
+
+            //int input = 10;
+
+            //if ( input >= 9 && input <= 12)
+            //{
+            //    Console.WriteLine("blahblahblahblah");
+            //}
+
+            ////Enter number
+
+            //int number = int.Parse(Console.ReadLine());
+
+            ////if number  positibe = true display "positive"                       //26
+
+            //if (number % 2 == 0)
+            //{
+            //    Console.WriteLine("Even");                                        //27
+            //}
+
+            //int number1 = int.Parse(Console.ReadLine());
+            //int number2 = int.Parse(Console.ReadLine());
+
+            //if (number1 % 2 == 0 && number2 % 2 == 0)
+            //{
+            //    Console.WriteLine("Both Even");                                   //28
+            //}
+
+            //int number1 = int.Parse(Console.ReadLine());
+            //int number2 = int.Parse(Console.ReadLine());
+
+            //if (number1 > 0 && number2 > 0)
+            //{
+            //    Console.WriteLine("Both Positive");                                   //29
+            //}
+
+            //int age = int.Parse(Console.ReadLine());
+
+            //if (age > 14)
+            //{
+            //    Console.WriteLine("You can drive a car in Kansas (USA)");                    //30
+            //}
+
+
+            //string input = (Console.ReadLine());
+
+            //if (input == input.ToUpper())
+            //{
+            //    Console.WriteLine("upper :(");                                        //31 + 32
+            //}
+
+            //if (input.Length >= 20)
+            //{
+            //    Console.WriteLine("hehe many letter");
+            //}
+
+            //Enter 4 numbers, if one is negative, display there is a negative
+
+            //int number1 = int.Parse(Console.ReadLine());
+            //int number2 = int.Parse(Console.ReadLine());
+            //int number3 = int.Parse(Console.ReadLine());
+            //int number4 = int.Parse(Console.ReadLine());
+            //int number5 = 0;
+
+            //if (!(number1 >= 0)) {
+            //    number5++;
+            //}
+            //if (!(number2 >= 0))
+            //{
+            //    number5++;
+            //}
+            //if (!(number3 >= 0))                                                      //33
+            //{
+            //    number5++;
+            //}
+            //if (!(number4 >= 0))
+            //{
+            //    number5++;
+            //}
+
+            //if (!(number5 == 1)) 
+            //{
+            //Console.WriteLine(number5 + " numbers you gave were negative!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(number5 + " number you gave was negative");
+            //}
+
+
+            //Enter two numbers
+
+            // if 1 > 2 swap the values
+
+            //Display numbers, in ascending order
+
+
+            //int number1 = int.Parse(Console.ReadLine());
+            //int number2 = int.Parse(Console.ReadLine());
+
+            //int number3;
+
+            //if (number1 > number2)
+            //{
+            //    number3 = number2;
+            //    number2 = number1;
+            //    number1 = number3;                                                    //34
+            //}
+
+            //if (number1 > number2)
+            //{
+            //    Console.WriteLine(number2 + " is number 2");
+            //    Console.WriteLine(number1 + " is number 1");
+            //} 
+            //else
+            //{
+            //    Console.WriteLine(number1 + " is number 1");
+            //    Console.WriteLine(number2 + " is number 2");
+            //}
 
 
 
+            //int number1 = int.Parse(Console.ReadLine());
+            //int number2 = int.Parse(Console.ReadLine());
+            //int number3 = int.Parse(Console.ReadLine());                              //35
+            //int number4;
+
+            //number4 = (number1 + number2 + number3) / 3;
+
+            //if (number4 > 60)
+            //{
+            //    Console.WriteLine("wowwwww heatwaaaave");
+            //}
 
             Console.ReadLine();
 
