@@ -737,6 +737,218 @@ namespace Ganbare1
             //    Console.WriteLine("wowwwww heatwaaaave");
             //}
 
+            //input a + b
+
+            //int a, b;
+
+            //a = int.Parse(Console.ReadLine());
+            //b = int.Parse(Console.ReadLine());
+
+            ////display the one that is larger                                      //36
+
+            //if ( a > b )
+            //{
+            //    Console.WriteLine(a);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(b);
+            //}
+
+            //enter a positive int
+
+            //int number = int.Parse(Console.ReadLine());
+
+            //if even - say even 
+
+            //if (number % 2 == 0)
+            //{
+            //    Console.WriteLine("even");                                    //37
+            //}
+            //else if (number % 2 != 0)
+            //{
+            //    Console.WriteLine("odd");
+            //}
+            //if odd - say odd
+
+
+            //enter pay rate 
+
+            //int rate = int.Parse(Console.ReadLine());
+
+            ////enter hours
+
+            //int hours = int.Parse(Console.ReadLine());
+
+            //if (hours > 40)
+            //{
+            //    //calcs hours that are over 40
+            //    int over = hours - 40;
+            //    //hours * rate = what get for hours under or equal to 40
+            //    int basepay = hours * rate;
+            //    //grosspay is the basepay + 1.5 of rate * the hours over
+            //    int grosspay = basepay + ((rate * 3 / 2) * over);
+
+            //    Console.WriteLine(grosspay);
+            //}
+            //else
+            //{
+            //    int grosspay = hours * rate;                                      //38
+
+            //    Console.WriteLine(grosspay);
+            //}
+
+            //if over 40 , over = hours - 40
+
+            // hours * 40 
+
+
+            // hours over * pay and a half (over / 2 * 3)
+
+            //Display gross pay for week 
+
+
+
+            //int x = int.Parse(Console.ReadLine());
+
+            //int w = x * 3 - 15;
+
+            //int z = (w + 7) * (x + 4) - 10;                                   //39
+
+            //if (w > x && z > x)
+            //{
+            //    x = x++;
+            //    int y = x / 2 + 4;
+            //    Console.WriteLine(y);
+            //}
+            //else
+            //{
+            //    int y = x / 4 + 2;
+            //    Console.WriteLine(y);
+            //}
+
+            // enter team name 1
+
+            //string team1 = Console.ReadLine();
+
+            ////Enter team name 2
+
+            //string team2 = Console.ReadLine();
+
+            ////enter score for team 1
+
+            //int score1 = int.Parse(Console.ReadLine());                           //40
+
+            ////enter score for team 2 
+
+            //int score2 = int.Parse(Console.ReadLine());
+
+            ////display winner
+
+            //if (score1 > score2)
+            //{
+            //    Console.WriteLine(team1 + " is winner!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(team2 + " is winner!");
+            //}
+
+            //enter number
+
+            //int number = int.Parse(Console.ReadLine());
+
+            //if (number % 6 != 0)
+            //{
+            //    Console.WriteLine(number + " is not a multiple of 6");                //41
+            //}
+            //else
+            //{
+            //    Console.WriteLine(number + " is a multiple of 6");
+            //}
+
+            //number % 6 != 0
+
+            //Not multiple of 6 
+
+
+
+
+
+
+
+            //Enter a number
+
+            //int number = int.Parse(Console.ReadLine());
+
+            ////if the number is multiple of 4, say so
+
+            //if (number % 4 == 0)
+            //{
+            //    Console.WriteLine(number + " is multiple of 4");                                      //42
+            //}
+
+            //else
+            //{
+            //    int times = number / 4;
+            //    int remainder = number % times;
+
+            //    Console.WriteLine(number + " = " + times + " x " + 4 + " + " + remainder);
+            //}
+
+            // if not, show the number, quotient, and remainder
+
+            // 4
+
+            //number that 4 times by = int number / 4
+
+            //remainder = number % number that 4 times by 
+
+
+
+
+            //Enter 3 ints lenghts of triangle
+
+            //int len1 = int.Parse(Console.ReadLine());
+            //int len2 = int.Parse(Console.ReadLine());
+            //int len3 = int.Parse(Console.ReadLine());
+
+            ////display if the 3 lengths can make up a triangle
+
+            //if (len1 > (len2 + len3) || len2 > (len1 + len3) || len3 > (len1 + len2))                     //43
+            //{
+            //    Console.WriteLine("cannot triangle!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("can triangle :)...");
+            //}
+            //// if one side is more than sum of two others, and two side is more than sum of two others,
+            //// and three side is more than sum of two others, cannot be a valid triangle
+            ////else it is a valid triangle
+
+
+            //Enter three numbers
+
+            //int len1 = int.Parse(Console.ReadLine());                                                         //44
+            //int len2 = int.Parse(Console.ReadLine());
+            //int len3 = int.Parse(Console.ReadLine());
+
+            ////displays if can be a right angled triangle or not
+
+            ////if a*a + b*b == c*c , triangle yes
+
+            //if (len1*len1 + len2*len2 == len3*len3)
+            //{
+            //    Console.WriteLine("yes triangle... :)");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("no!!!!!");
+            //}
+            //else....no
+
+
             Console.ReadLine();
 
             
