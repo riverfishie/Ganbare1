@@ -949,7 +949,458 @@ namespace Ganbare1
             //else....no
 
 
-            Console.ReadLine();
+            ////Enter integer between 0-999
+
+            //int number = int.Parse(Console.ReadLine());
+
+            ////counts the amount of digits it has
+
+            //if ((number / 10) == 0)
+            //{
+            //    Console.WriteLine(number + " is one Digit");                                                  //45
+            //}
+            //else if ((number / 100) == 0)
+            //{
+            //    Console.WriteLine(number + " this one is two digits");
+            //}
+            //else if ((number / 1000) == 0)
+            //{
+            //    Console.WriteLine(number + " three!!!!!!!!");
+            //}
+
+            ////Displays
+            ///
+            //double a, y;
+
+            //a = Double.Parse(Console.ReadLine());
+
+            //if (a < 1)
+            //{
+            //    y = 5 + a;
+            //    Console.WriteLine(y);
+            //}
+            //else if (a < 5)
+            //{
+            //    y = 23 / a;
+            //    Console.WriteLine(y);
+            //}
+            //else if (a < 10)
+            //{
+            //    y = 5 * a;
+            //    Console.WriteLine(y);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Error!");
+            //}
+
+
+            //team names 
+            //string name1 = Console.ReadLine();
+            //string name2 = Console.ReadLine();
+
+            //int score1 = int.Parse(Console.ReadLine());
+            //int score2 = int.Parse(Console.ReadLine());                           //46
+
+            ////scores for each
+
+            ////displays winner
+
+            //if (score1 > score2)
+            //{
+            //    Console.WriteLine(name1 + " Winner");
+            //}
+            //else if (score2 > score1)
+            //{
+            //    Console.WriteLine(name2 + " Winner");
+            //}
+            //else if (score1 == score2)
+            //{
+            //    Console.WriteLine("tie.......:(");
+            //}
+            //and displays tie if both are tie
+
+
+
+
+
+            //Enter integer between -9999 + 9999
+
+            //int number = int.Parse(Console.ReadLine());
+
+            //////Counts the amount of digits 
+
+            //if ((number <= 0 && number >= -9) || (number >= 0 && number <= 9))
+            //{
+            //    Console.WriteLine("1 digit");
+            //}
+            //else if ((number <= -9 && number >= -99) || (number >= 9 && number <= 99))
+            //{
+            //    Console.WriteLine("2 digit");
+            //}
+            //else if ((number <= -99 && number >= -999) || (number >= 99 && number <= 999))
+            //{
+            //    Console.WriteLine("3 digit");
+            //}
+            //else if ((number <= -999 && number >= -9999) || (number >= 999 && number <= 9999))                            //47
+            //{
+            //    Console.WriteLine("4 digits");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid!!");
+            //}
+
+            //You entered an N digit number!
+
+
+
+            //4 options of conversion 
+            //error if not one is selected
+
+            //Console.WriteLine("Select a currency to exchange");
+
+            //Console.WriteLine("1. GBP to EUR");
+            //Console.WriteLine("2. GBP to USD");
+            //Console.WriteLine("3. GBP to JPY");                                               //48
+            //Console.WriteLine("4. GBP to CAD");
+
+            //double eur, usd, jpy, cad;
+
+            //eur = 1.17;
+            //usd = 1.36;
+            //jpy = 151.23;
+            //cad = 1.72;
+
+            //int selection = int.Parse(Console.ReadLine());
+
+            //int number = int.Parse(Console.ReadLine());
+
+            //switch (selection)
+            //{
+            //    case 1:
+
+            //        Console.WriteLine("€ " + number * eur);
+
+            //        break;
+
+            //    case 2:
+            //        Console.WriteLine("$ " + number * usd);
+            //        break;
+
+            //    case 3:
+            //        Console.WriteLine( number * jpy + " ¥ ");                                 //49
+            //        break;
+
+            //    case 4:
+            //        Console.WriteLine("$ " + number * cad);
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("waaaaa");
+            //        break;
+            //}
+            //EUR - 0.87
+            //GBP - 0.78
+            //JPY - 108.55
+            //CAD - 1.33
+
+            //INPUT AMOUNT TO CONVERT
+
+            //CONVERT
+
+            //PRINT
+
+            //Months
+
+            //int index = int.Parse(Console.ReadLine());                        //50
+
+            //int selectedmonth = index - 1;
+
+            //if (selectedmonth > 12)
+            //{
+            //    selectedmonth = 12;
+            //}
+
+
+            //string[] months = new string[] { "January", "February", "March", "May", "April", "June", "July", "August", "September", "October", "November", "December", "BAD!!!!!!!!" };
+
+
+            //if (index == 12 || index == 1 || index == 2)
+            //{
+            //    Console.WriteLine("The winter month of ....");
+            //}
+            //else if (index == 3 || index == 4 || index == 5)
+            //{
+            //    Console.WriteLine("The spring month of ....");
+            //}
+            //else if ( index == 6 || index == 7 || index == 8 )
+            //{                                                                             //51
+            //    Console.WriteLine("The summer month of ....");
+            //}
+            //else if (index == 9 || index == 10 || index == 11)
+            //{
+            //    Console.WriteLine("The autumn month of ....");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The dumdum month of .... ");
+            //}
+
+
+            //Console.WriteLine(months[selectedmonth]);
+
+
+            //string number = (Console.ReadLine());
+
+            ////split the number into two values the first number and the second number by the point 
+
+            //string[] numbers = number.Split('.');
+
+            //int ahhhh = int.Parse(numbers[0]);
+            //int ahhhh2 = int.Parse(numbers[1]);
+
+            //string first = "0";
+
+            //if (ahhhh == 1) 
+            //{
+
+            //    first = "one";
+            //}
+            //else if (ahhhh == 2)
+            //{
+
+            //    first = "two";
+            //}
+            //else if (ahhhh == 3)
+            //{
+
+            //    first = "three";
+            //}
+            //else if (ahhhh == 4)
+            //{
+
+            //    first = "four";
+            //}
+            //else if (ahhhh == 5)
+            //{
+
+            //    first = "five";
+            //}
+            //else if (ahhhh == 6)
+            //{
+
+            //    first = "six";
+            //}
+            //else if (ahhhh == 7)
+            //{
+
+            //    first = "seven";
+            //}
+            //else if (ahhhh == 8)
+            //{
+
+            //    first = "eight";
+            //}
+            //else if (ahhhh == 9)
+            //{
+
+            //    first = "nine";
+            //}
+            //else if (ahhhh == 0)
+            //{
+
+            //    first = "zero";
+            //}
+
+            //string second = "0";
+
+            //if (ahhhh2 == 1)
+            //{
+
+            //    second = "one";
+            //}
+            //else if (ahhhh2 == 2)
+            //{
+
+            //    second = "two";
+            //}
+            //else if (ahhhh2 == 3)
+            //{
+
+            //    second = "three";
+            //}
+            //else if (ahhhh2 == 4)
+            //{
+
+            //    second = "four";
+            //}
+            //else if (ahhhh2 == 5)
+            //{
+
+            //    second = "five";
+            //}
+            //else if (ahhhh2 == 6)
+            //{
+
+            //    second = "six";
+            //}
+            //else if (ahhhh2 == 7)
+            //{
+
+            //    second = "seven";
+            //}
+            //else if (ahhhh2 == 8)                                             //52
+            //{
+
+            //    second = "eight";
+            //}
+            //else if (ahhhh2 == 9)
+            //{
+
+            //    second = "nine";
+            //}
+            //else if (ahhhh2 == 0)
+            //{
+
+            //    second = "zero";
+            //}
+
+
+            //Console.WriteLine(first + " point " + second);
+
+            //enter lengths of three sides of triangle
+
+            //check if can be a triangle
+
+            //then see if it is an equilateral triangle, a right angled triangle, or an unspecified form of triangle
+
+
+            //int len1 = int.Parse(Console.ReadLine());                                                         //53
+            //int len2 = int.Parse(Console.ReadLine());
+            //int len3 = int.Parse(Console.ReadLine());
+
+            //displays if can be a right angled triangle or not
+
+            //if a*a + b*b == c*c , triangle yes
+
+            //if (len1 == len2 && len2 == len3)
+            //{
+            //    Console.WriteLine("Equal....:)");
+            //}
+            //else if (len1 * len1 + len2 * len2 == len3 * len3)
+            //{
+            //    Console.WriteLine("yes triangle... :)");
+            //}
+            //else if (len1 + len2 > len3 && len2 + len3 > len1 && len3 + len1 > len2)                    //54
+            //{
+            //    Console.WriteLine("no!!!!!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("huh......");
+            //}
+
+            //int x = int.Parse(Console.ReadLine());                                                    //55
+
+            //int y = 50;
+
+            //if ( x / 2 > 10)
+            //{
+            //    Console.WriteLine(y);
+            //}
+            //else
+            //{
+            //    x = x / 3;
+            //    y = x + 4;
+
+            //    Console.WriteLine(y);
+
+            //}
+
+
+            //int x = int.Parse(Console.ReadLine());                                                    
+
+            //int y = 1;
+
+            //if ( x != 100)
+            //{
+            //    y = int.Parse(Console.ReadLine());
+
+            //    if (x < y)
+            //    {
+            //        x = x - 3;                                                              //56
+            //        y = x + 4;
+            //    }
+            //    else
+            //    {
+            //        x = x / 3 + 5;
+            //        y = x + 20;
+            //    }
+            //}
+            //Console.WriteLine(x + "" + y);
+
+            //int x = int.Parse(Console.ReadLine());
+            //int y = int.Parse(Console.ReadLine());
+
+            //int a = 0;
+
+            //if (x % y != 1 && y % x != 1)
+            //{
+            //    Console.WriteLine("Invalid");                                               //57
+            //}
+            //else if (x % y == 1)
+            //{
+            //    a = 10;
+            //}
+            //else if (y % x == 1)
+            //{
+            //    a = 20;
+            //}
+
+            //Console.WriteLine(a);
+
+
+            //int a, x, y;
+
+            //y = Int32.Parse(Console.ReadLine());
+            //x = Int32.Parse(Console.ReadLine());
+
+            //if (y > 0)
+            //{
+            //    a = x * 4 * y + 1;
+            //}
+            //else
+            //{                                                                              //58
+            //    a = x * 2 * y + 6;
+            //}
+            //Console.WriteLine(y);
+            //Console.WriteLine(a);
+
+            //Enter two numbers
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+
+            //if (a % 2 == 0 && b % 2 == 0)
+            //{
+            //    Console.WriteLine("Both even!");
+            //}
+            //else if  (a % 2 != 0 && b % 2 != 0)                                                //59     
+            //{
+            //    Console.WriteLine("Both odd!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("meh...");
+            //}
+
+            //if both are odd or both are even, say so
+
+                //else doesn't say anything special
+
+
+
+                Console.ReadLine();
 
             
 
