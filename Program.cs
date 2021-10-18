@@ -1396,11 +1396,87 @@ namespace Ganbare1
 
             //if both are odd or both are even, say so
 
-                //else doesn't say anything special
+            //else doesn't say anything special
+
+            //double gtol = 3.785;
+
+            //////convert gallon to liter
+            //////convert liter to gallon
+
+            //Console.WriteLine("1. Convert gallons to liters");
+            //Console.WriteLine("2. Convert liters to gallons");
+            ////Prompt user to enter 1 or 2 
+
+            //int selection = int.Parse(Console.ReadLine());
+
+            ////enter quantity
+
+            //double quantity = double.Parse(Console.ReadLine());
+
+            //if (selection == 1)
+            //{
+            //    Console.WriteLine(quantity * gtol + " Liters");                                   //60
+            //}
+            //else if (selection == 2)
+            //{
+            //    if (quantity < 0)
+            //    {
+            //        Console.WriteLine(quantity / gtol + " Gallons");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Positive number plsss");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+
+            //1g = 3.785l
+
+            //Calcs and displays the value
+
+
+            //Enter vehicle type
+            //Console.WriteLine("Enter vehicle type");
+            //string type = Console.ReadLine().ToUpper();
+
+            //if (type != "M" && type != "C" && type != "T")
+            //{
+            //    Console.WriteLine("Valid vehicle type plsss");
+            //}
+            //else
+            //{
+            //    switch (type)
+            //    {
+            //        case "M":
+            //            Console.WriteLine("$1 pls");                                  //61
+            //            break;
+            //        case "C":
+            //            Console.WriteLine("$2 pls");
+            //            break;
+            //        case "T":
+            //            Console.WriteLine("$4 plsss");
+            //            break;
+
+            //        default:
+            //            Console.WriteLine("huh....");
+            //            break;
+            //    }
+            //}
+
+            //Displays price to pay
+
+            //if not car, motorbike, or truck - error message displayed
 
 
 
-                Console.ReadLine();
+
+
+
+
+            Console.ReadLine();
 
             
 
