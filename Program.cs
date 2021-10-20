@@ -1471,16 +1471,325 @@ namespace Ganbare1
             //if not car, motorbike, or truck - error message displayed
 
 
+            //User enter number
+
+            //string error = "error";
+
+            //Console.WriteLine("Number pls");
+
+            //int fnumber = int.Parse(Console.ReadLine());
+
+            ////Enter type of operation
+
+            //string op = Console.ReadLine();
+
+            ////Enter second number
+
+            //int snumber = int.Parse(Console.ReadLine());
+
+            ////Calculate and display result
+
+            //switch (op)
+            //{
+            //    case "+":
+            //        Console.WriteLine(fnumber + snumber);                             //62
+            //        break;
+            //    case "-":
+            //        Console.WriteLine(fnumber - snumber);
+            //        break;
+            //    case "/":
+            //        if (snumber != 0)
+            //        {
+            //            Console.WriteLine(fnumber / snumber);
+            //        }
+            //        else { Console.WriteLine(error); }
+
+            //        break;
+
+            //    case "*":
+            //        Console.WriteLine(fnumber * snumber);
+            //        break;
+            //}
 
 
+
+            //Finding the value of y
+
+            //formula = 
+
+            // y = (5 + x) / x + (x + 9) / (x - 4)
+
+
+            //Input value of x 
+
+            //int x = int.Parse(Console.ReadLine());
+            //int y;
+
+            //while ( x == 0 || x == 4)
+            //{
+            //    Console.WriteLine("Input number that isn't 0 or 4 -___- ");                       //63
+            //    x = int.Parse(Console.ReadLine());
+            //}
+
+            //y = (5 + x) / x + (x + 9) / (x - 4);
+
+            //Console.WriteLine(y);
+
+            // find value of y AGAIN
+
+            // IF x >= 0 formula : y = ( 7 + x ) / ( x - 3 ) + ( 3 - x ) / x 
+            // else if x < 0, y = 40x / ( x - 5 ) + 3 
+            // ( x is always less than 0 for
+            // this, so don't need to watch out for it
+
+
+            //int x = int.Parse(Console.ReadLine());
+
+            //int y;
+
+            //if (x >= 0 && x != 0 && x - 3 != 0)
+            //{
+            //    y = (7 + x) / (x - 3) + (3 - x) / x;                                                  //64
+            //    Console.WriteLine(y);
+            //}
+            //else if (x < 0)
+            //{
+            //    y = (40 * x) / (x - 5) + 3;
+            //    Console.WriteLine(y);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Perhaps you tried to divide by 0....");
+            //}
+
+            // ax + b = 0
+
+            // solved for x : x = -b / a
+
+            //get a and b
+
+            //Console.WriteLine("Enter a and b");
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int x;
+
+
+            ////if a is not 0, x = - b /a
+            //if (a != 0)
+            //{
+
+            //    x = -b / a;
+            //    //write x 
+            //    Console.WriteLine(x);
+            //}
+
+            //// a first needs to not be 0, else cannot be performed (write undefined)                      //65
+            //else if ( a == 0 )
+            //{
+            //    if (b != 0)
+            //    {
+            //        Console.WriteLine("Undefined");
+            //    }
+            //    else
+            //    {
+            //        //if a is 0 and b is 0, the result is indeterminate (write indeterminate form)
+            //        Console.WriteLine("Indeterminate form");
+            //    }
+            //}
+
+            //Quadratic Equation
+
+            // ax ^ 2 + bx + c = 0
+
+            //double a, b, c, x;
+
+            //Console.WriteLine("Enter a , b , c ");
+
+            //a = double.Parse(Console.ReadLine());
+            //b = double.Parse(Console.ReadLine());
+            //c = double.Parse(Console.ReadLine());
+
+            //// if a, b , and c all = 0 : write indeterminate form
+
+            //if (a == 0 && b == 0 && c == 0)
+            //{
+            //    Console.WriteLine("Indeterminate Form");
+            //}
+            //// if a, b = 0 but c != 0 : write undefined 
+            //else if (a == 0 && b == 0 && c != 0)
+            //{
+            //    Console.WriteLine("Undefined");
+            //}
+            //// if a = 0 and b != 0 : write x = -(c / b)
+            //else if (a == 0 && b != 0)
+            //{
+            //    x = -(c / b);
+            //    Console.WriteLine(x);
+            //}
+            //// if a != 0 : introduce D. D = b^2 - 4 * a * c                               //66
+            //double D = b * b - 4 * a * c; ;
+            //if (a != 0)
+            //{
+            //    // if D < 0 : write complex roots
+            //    if (D < 0)
+            //    {
+            //        Console.WriteLine("Complex Roots...");
+            //    }
+            //    else if (D != 0 && D > 0)
+            //    // if D >= 0 + if D > 0, two solutions ///1/// = ( - b + sqrt.D ) / ( 2 * a ) ///2/// = ( - b - sqrt.D ) / ( 2 * a ) write both
+            //    {
+            //        x = -b + Math.Sqrt(D) / 2 * a;
+            //        Console.WriteLine("x1 = " + x);
+            //        x = -b - Math.Sqrt(D) / 2 * a;
+            //        Console.WriteLine("x2 = " + x);                             //this part needs revision (DONE)
+            //    }
+            //    // if D >= 0 && D = 0,  x = ( - b ) / ( 2 * a ) write 
+            //    else if (D == 0)
+            //    {
+            //        x = -b / 2 * a;
+            //        Console.WriteLine(x);
+            //    }
+            //}
+
+
+            //enter number
+
+            //double number = double.Parse(Console.ReadLine());
+
+            //// calculates and displays its square root
+            //if ( number > 0)
+            //{
+            //    number = Math.Sqrt(number);                                             //67 REVIEW EXERCISE 23.6 - 1
+            //}
+            //else
+            //// error if it is a negative number
+            //{
+            //    Console.WriteLine("error");
+            //}
+
+
+            //BMI TABLE VERSION 2
+
+
+            //User enter height and weight 
+
+            //float h = float.Parse(Console.ReadLine());
+            ////67.913
+
+            //float w = float.Parse(Console.ReadLine());
+            ////168.7
+
+            ////BMI = (weight - 703) / (height^2)
+
+            //float BMI = (w * 703) / (h * h);
+
+            //if (BMI < 15)
+            //{
+            //    Console.WriteLine("Very severely underweight");                       //68
+            //}
+            //else if (15 <= BMI && 16 > BMI)
+            //{
+            //    Console.WriteLine("Severely underweight");
+            //}
+            //else if (16 <= BMI && 18.5 > BMI)
+            //{
+            //    Console.WriteLine("Underweight");
+            //}
+            //else if (18.5 <= BMI && 25 > BMI)
+            //{
+            //    Console.WriteLine("Normal weight");
+            //}
+            //else if (25 <= BMI && 30 > BMI)
+            //{
+            //    Console.WriteLine("Overweight");
+            //}
+            //else if (30 <= BMI && 35 > BMI)
+            //{
+            //    Console.WriteLine("Severely overweight");
+            //}
+            //else if (BMI >= 35)
+            //{
+            //    Console.WriteLine("Very severely overweight");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Error.. Something you wrote must have been wrong....");
+            //}
+
+            ////display BMI 
+
+            //// < 15 v s underweight
+
+            //// 15 <= BMI < 16 s underweight
+
+            //// 16 <= BMI < 18.5 underweight
+
+            //// 18.5 <= BMI < 25 normal
+
+            ////25 <= BMI < 30 overweight 
+
+            ////30 <= BMI 35 < s overweight
+
+            //// 35 <= BMI v s overweight
+
+            //user enters 4 numbers
+
+            //Calculates their sum
+            //int x = 4;
+            //int hmm = 0;
+
+            //while (x > 0)
+            //{
+            //    int uhh;
+            //    uhh = int.Parse(Console.ReadLine());                                                      //69
+
+            //    hmm = uhh + hmm;
+            //    x--;
+
+            //}
+            //Console.WriteLine(hmm);
+
+
+
+            //int counter = 0;
+            //int sumodd = 0;
+
+            //while (counter < 20)
+            //{
+            //    int numbers = int.Parse(Console.ReadLine());                                                  //70
+
+            //    if (numbers % 2 != 0)
+            //    {
+            //        sumodd = numbers + sumodd;
+            //    }
+            //    counter++;
+            //}
+            //Console.WriteLine(sumodd);
+
+            //user input how many numbers (n)
+
+            //int counter = int.Parse(Console.ReadLine());
+
+            //int i = 0;
+
+            //int output = 0;
+
+            //while (i < counter)
+            //{
+            //    int sum = int.Parse(Console.ReadLine());                                                          //71
+            //    output += sum;
+            //    i++;
+            //}
+
+            //Console.WriteLine(output);
+            ////enter n amount of numbers
+
+            ////displays their sum
 
 
 
             Console.ReadLine();
-
-            
-
-
 
 
 
